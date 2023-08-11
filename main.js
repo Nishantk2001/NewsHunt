@@ -49,17 +49,7 @@ async function fetchData(url, API_KEY, querry) {
 
 function bindDataToDom(articles) {
   {
-      // "source": {
-      //     "id": "bbc-news",
-      //     "name": "BBC News"
-      // },
-      // "author": "https://www.facebook.com/bbcnews",
-      // "title": "Cyclone Biparjoy: At least two people dead after storm hits India",
-      // "description": "Dozens more have been injured after the large storm made landfall along the India-Pakistan coastline.",
-      // "url": "https://www.bbc.co.uk/news/world-asia-india-65924553",
-      // "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/FE92/production/_130107156_15e8279c14908ea6fc993e25f56a329b5a434021.jpg",
-      // "publishedAt": "2023-06-16T04:29:13Z",
-      // "content": "Media caption, Heavy rains lash Indian and Pakistani coastal areas\r\nAt least two people have been killed and 22 injured after Cyclone Biparjoy made landfall in eastern India near the Pakistan border.… [+2586 chars]"
+     
   }
 
   articles.forEach((article) => {
